@@ -1,0 +1,6 @@
+reset;
+model kcluster.mod;
+data kcluster.dat;
+option solver cplex;
+solve;
+
