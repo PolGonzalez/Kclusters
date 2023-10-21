@@ -4,76 +4,29 @@ option display_width 1000;
 option solver cplex;
 data Kcluster0.dat;
 solve;
-display _total_solve_time>> solution_time.txt;
-
+display _total_solve_time;
 reset;
 model Kcluster.mod;
 option display_width 1000;
 option solver cplex;
 data Kcluster1.dat;
 solve;
-display _total_solve_time>> solution_time.txt;
-
-reset;
+display _total_solve_time;
 model Kcluster.mod;
 option display_width 1000;
 option solver cplex;
 data Kcluster2.dat;
 solve;
-display _total_solve_time>> solution_time.txt;
-
-reset;
+display _total_solve_time;
 model Kcluster.mod;
 option display_width 1000;
 option solver cplex;
 data Kcluster3.dat;
 solve;
-display _total_solve_time>> solution_time.txt;
-
-reset;
+display _total_solve_time;
 model Kcluster.mod;
 option display_width 1000;
 option solver cplex;
 data Kcluster4.dat;
 solve;
-display _total_solve_time>> solution_time.txt;
-
-reset;
-model Kcluster.mod;
-option display_width 1000;
-option solver cplex;
-data Kcluster5.dat;
-solve;
-display _total_solve_time>> solution_time.txt;
-
-reset;
-model Kcluster.mod;
-option display_width 1000;
-option solver cplex;
-data Kcluster6.dat;
-solve;
-display _total_solve_time>> solution_time.txt;
-
-reset;
-model Kcluster.mod;
-option display_width 1000;
-option solver cplex;
-data Kcluster7.dat;
-solve;
-display _total_solve_time>> solution_time.txt;
-
-reset;
-model Kcluster.mod;
-option display_width 1000;
-option solver cplex;
-data Kcluster8.dat;
-solve;
-display _total_solve_time>> solution_time.txt;
-
-reset;
-model Kcluster.mod;
-option display_width 1000;
-option solver cplex;
-data Kcluster9.dat;
-solve;
-display _total_solve_time>> solution_time.txt;
+display _total_solve_time;
