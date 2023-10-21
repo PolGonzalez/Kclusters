@@ -1,2 +1,18 @@
-_total_solve_time = 262.359
+_total_solve_time = 0.046875
+
+_total_solve_time = 0.0625
+
+_total_solve_time = 0.125
+
+_total_solve_time = 0.25
+
+_total_solve_time = 0.421875
+
+_total_solve_time = 0.703125
+
+_total_solve_time = 0.96875
+
+_total_solve_time = 1.57812
+
+_total_solve_time = 2.0625
 
