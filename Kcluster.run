@@ -1,9 +1,0 @@
-reset;
-
-model Kcluster.mod;
-data Kcluster.dat;
-option display_width 1000;
-option solver cplex;
-solve;
-display _total_solve_time > solution_time.txt;
-display x > solution_matrix.txt;
